@@ -169,7 +169,8 @@ async function run() {
             actions: actions,
             title: title,
             icon: icon,
-            message: message[1] + "\n\n" + details,
+            // message: message[1] + "\n\n" + details,
+            message: details,
         };
 
         if (ImageEnabled) {
